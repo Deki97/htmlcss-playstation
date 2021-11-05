@@ -33,7 +33,7 @@ img {
 .header-bottom {
 
     /* test */
-    /* background-color: pink; */
+    background-color: pink;
 }
 
 .ps-logo-container img {
@@ -74,6 +74,22 @@ img {
 .chevron-down img {
     width: 14px;
 }
+
+.btn-accedi {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #303030;
+    border-radius: 20px;
+}
+
+.btn-accedi a {
+    color: white;
+}
+
+.lens-icon img {
+    width: 30px;
+}
+
 /* END MENU */
 
 /* END HEADER BOTTOM */
