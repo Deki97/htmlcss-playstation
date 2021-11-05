@@ -11,6 +11,13 @@ img {
 }
 
 /* HEADER */
+.header-top {
+    background-color: black;
+}
+
+.sony-logo-container {
+    width: 100px;
+}
 /* END HEADER */
 
 /* MAIN */
