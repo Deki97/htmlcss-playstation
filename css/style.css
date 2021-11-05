@@ -10,14 +10,49 @@ img {
     width: 100%;
 }
 
+
 /* HEADER */
+
+/* HEADER TOP */
 .header-top {
     background-color: black;
 }
 
 .sony-logo-container {
+    width: 100%;
+    padding: 5px 0;
+    text-align: right;
+}
+
+.sony-logo-container img {
     width: 100px;
 }
+/* END HEADER TOP */
+
+/* HEADER BOTTOM */
+.header-bottom {
+
+    /* test */
+    /* background-color: pink; */
+}
+
+.ps-logo-container img {
+    width: 70px;
+}
+
+.burger {
+    text-align: right;
+    font-size: 30px;
+    padding-right: 5px;
+}
+
+.burger i {
+    border: 1px solid lightgrey;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+/* END HEADER BOTTOM */
+
 /* END HEADER */
 
 /* MAIN */
