@@ -40,6 +40,7 @@ img {
     width: 70px;
 }
 
+/* BURGER */
 .burger {
     text-align: right;
     font-size: 30px;
@@ -51,6 +52,30 @@ img {
     padding: 8px 20px;
     border-radius: 5px;
 }
+/* END BURGER */
+
+/* MENU */
+.menu-container {
+    width: 100%;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.chevron-down img {
+    width: 14px;
+}
+/* END MENU */
+
 /* END HEADER BOTTOM */
 
 /* END HEADER */
