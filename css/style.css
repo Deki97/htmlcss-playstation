@@ -5,3 +5,7 @@ body {
 header {
     font-family: Helvetica, arial, sans-serif;
 }
+
+img {
+    width: 100%;
+}
