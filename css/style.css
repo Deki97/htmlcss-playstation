@@ -6,11 +6,30 @@ header {
     font-family: Helvetica, arial, sans-serif;
 }
 
+/* COMMON */
 img {
     width: 100%;
 }
 
+.white {
+    color: white;
+}
 
+.black {
+    color: black;
+}
+
+.grey {
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+.radius {
+    border-radius: 20px;
+}
 /* HEADER */
 
 /* HEADER TOP */
@@ -33,7 +52,7 @@ img {
 .header-bottom {
 
     /* test */
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 .ps-logo-container img {
@@ -89,14 +108,76 @@ img {
 .lens-icon img {
     width: 30px;
 }
-
 /* END MENU */
-
 /* END HEADER BOTTOM */
-
 /* END HEADER */
 
+
 /* MAIN */
+/* JUMBOTRON SECTION */
+.jumbotron-wrapper {
+    background-image: url('../img/jumbo-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jumbotron-content {
+    margin-top: 300px;
+    margin-bottom: 50px;
+}
+.returnal-logo {
+    margin-bottom: 30px;
+}
+
+.returnal-logo img {
+    width: 280px;
+}
+
+.section-title,
+.section-paragraph,
+.section-btn {
+    margin-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 40px;
+}
+
+/* MEDIA QUERY RETURNAL LOGO RESPONSIVE */
+@media (min-width: 576px) {
+    .returnal-logo img {
+        width: 320px;
+    }
+}
+@media (min-width: 768px) {
+    .returnal-logo img {
+        width: 420px;
+    }
+}
+@media (min-width: 992px) {
+    .returnal-logo img {
+        width: 220px;
+    }
+}
+/* END MEDIA QUERY RETURNAL LOGO RESPONSIVE */
+
+/* JUMBOTRON CARD SECTION */
+.jumbotron-card-wrapper {
+    margin: 30px 0;
+}
+
+.single-jumbotron-card {
+    margin-bottom: 20px;
+}
+
+.single-jumbotron-card img {
+    border-radius: 10px;
+}
+/* END JUMBOTRON CARD SECTION */
+/* END JUMBOTRON SECTION */
+
+
 /* END MAIN */
 
 /* FOOTER */
