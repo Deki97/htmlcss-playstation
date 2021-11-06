@@ -115,22 +115,37 @@ a {
 
 /* MAIN */
 /* JUMBOTRON SECTION */
-.jumbotron-wrapper {
+.jumbotron-wrapper.returnal {
     background-image: url('../img/jumbo-bg.png');
+}
+
+.jumbotron-wrapper.takes {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+}
+
+.jumbotron-wrapper {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.jumbotron-content {
+.jumbotron-content.returnal {
     margin-top: 300px;
     margin-bottom: 50px;
 }
-.returnal-logo {
+
+.jumbotron-content.takes {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.returnal-logo,
+.takes2-logo {
     margin-bottom: 30px;
 }
 
-.returnal-logo img {
+.returnal-logo img,
+.takes2-logo img {
     width: 280px;
 }
 
@@ -160,8 +175,21 @@ a {
         width: 220px;
     }
 }
-/* END MEDIA QUERY RETURNAL LOGO RESPONSIVE */
 
+/* END MEDIA QUERY RETURNAL LOGO RESPONSIVE */
+@media (min-width: 768px) {
+    .takes2-logo img {
+        width: 420px;
+    }
+}
+@media (min-width: 992px) {
+    .takes2-logo img {
+        width: 220px;
+    }
+}
+/* MEDIA QUERY IT TAKES TWO LOGO RESPONSIVE */
+
+/* END MEDIA QUERY IT TAKES TWO LOGO RESPONSIVE */
 /* JUMBOTRON CARD SECTION */
 .jumbotron-card-wrapper {
     margin: 30px 0;
