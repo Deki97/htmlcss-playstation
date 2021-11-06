@@ -177,6 +177,11 @@ a {
 }
 
 /* END MEDIA QUERY RETURNAL LOGO RESPONSIVE */
+@media (min-width: 576px) {
+    .takes2-logo img {
+        width: 320px;
+    }
+}
 @media (min-width: 768px) {
     .takes2-logo img {
         width: 420px;
