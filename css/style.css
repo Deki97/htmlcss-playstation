@@ -189,8 +189,9 @@ a {
     margin-bottom: 20px;
 }
 
-.single-jumbotron-card img {
-    border-radius: 10px;
+.single-jumbotron-card img,
+.card-image img {
+    border-radius: 20px;
 }
 /* END JUMBOTRON CARD SECTION */
 /* END JUMBOTRON SECTION */
@@ -231,6 +232,26 @@ a {
 }
 /* END ACCESSORY */
 /* END ECCO LA PLAYSTATION 5 SECTION */
+
+/* NUOVE USCITE SECTION */
+.new-releases {
+    background-color: #303030;
+    padding: 30px 0;
+}
+
+.new-releases-title {
+    margin-bottom: 30px;
+}
+
+.new-releases-subtitle {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.single-card-item {
+    margin-bottom: 40px;
+}
+/* END NUOVE USCITE SECTION */
 
 /* END MAIN */
 
