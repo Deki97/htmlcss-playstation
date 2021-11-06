@@ -177,6 +177,42 @@ a {
 /* END JUMBOTRON CARD SECTION */
 /* END JUMBOTRON SECTION */
 
+/* ECCO LA PLAYSTATION 5 SECTION */
+.section-subtitle {
+    text-transform: uppercase;
+    color: #0070d1;
+}
+
+.section-subtitle,
+.section-heading {
+    text-align: center;
+}
+
+.p-style {
+    color: grey;
+    font-size: 20px;
+}
+
+/* ACCESSORY */
+.accessory-name {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.single-item-accessory.console {
+    border-bottom: 2px solid #0d6efd;
+}
+
+/* MEDIA QUERY RESPONSIVE ACCESSORIES IMAGES */
+@media (min-width: 768px) {
+    .accessory-image {
+        width: 50%;
+        margin: auto;
+    }
+}
+/* END ACCESSORY */
+/* END ECCO LA PLAYSTATION 5 SECTION */
 
 /* END MAIN */
 
