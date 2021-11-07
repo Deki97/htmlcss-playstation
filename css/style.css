@@ -144,7 +144,8 @@ a {
 }
 
 .returnal-logo,
-.takes2-logo {
+.takes2-logo,
+.ps-plus-logo {
     margin-bottom: 30px;
 }
 
@@ -268,6 +269,27 @@ a {
     font-size: 30px;
 }
 /* END ESPLORA PLAYSTATION 4 SECTION */
+
+/* PLAYSTATION PLUS SECTION */
+.playstation-plus {
+    background-color: #a6a6a6;
+    margin-top: 40px;
+}
+
+.ps-plus-logo {
+    padding-top: 30px;
+}
+
+.ps-plus-logo img {
+    width: 350px;
+}
+
+.btn_ps-plus {
+    background-color: lightgrey;
+    color: #0d6efd;
+}
+
+/* END PLAYSTATION PLUS SECTION */
 /* END MAIN */
 
 /* FOOTER */
