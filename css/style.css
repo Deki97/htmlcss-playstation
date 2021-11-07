@@ -271,16 +271,28 @@ a {
 /* END ESPLORA PLAYSTATION 4 SECTION */
 
 /* PLAYSTATION PLUS SECTION */
+/* PLAYSTATION NOW SECTION */
 .playstation-plus {
     background-color: #a6a6a6;
-    margin-top: 40px;
 }
 
-.ps-plus-logo {
+.playstation-now {
+    background-color: #161c3b;
+}
+
+.playstation-plus,
+.playstation-now {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.ps-plus-logo,
+.ps-now-logo {
     padding-top: 35px;
 }
 
-.ps-plus-logo img {
+.ps-plus-logo img,
+.ps-now-logo img {
     width: 280px;
 }
 
@@ -289,25 +301,39 @@ a {
     color: #0d6efd;
 }
 
-/* MEDIA QUERY PLAYSTATION PLUS IMAGE RESPONSIVE */
+.btn_ps-plus:hover {
+    color: lightgrey;
+    background-color: #0d6efd;
+}
+
+/* MEDIA QUERY PLAYSTATION PLUS + PLAYSTATION NOW IMAGE RESPONSIVE */
 @media (min-width: 576px) {
-    .ps-plus-logo img {
+    .ps-plus-logo img,
+    .ps-now-logo img {
         width: 320px;
     }
 }
 @media (min-width: 768px) {
-    .ps-plus-logo img {
+    .ps-plus-logo img,
+    .ps-now-logo img {
         width: 200px;
     }
 }
 @media (min-width: 992px) {
-    .ps-plus-logo img {
+    .ps-plus-logo img,
+    .ps-now-logo img {
         width: 330px;
     }
 }
 /* END MEDIA QUERY PLAYSTATION PLUS IMAGE RESPONSIVE */
 /* END PLAYSTATION PLUS SECTION */
+/* END PLAYSTATION NOW SECTION */
 
+/* SECTION NEW SALES */
+.new-sales-single-item {
+    margin: 30px 0;
+}
+/* END SECTION NEW SALES */
 
 /* END MAIN */
 
