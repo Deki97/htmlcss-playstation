@@ -94,6 +94,18 @@ header {
     font-size: 20px;
 }
 
+.chevron-hover {
+    display: none;
+}
+
+.menu li:hover .chevron-static {
+    display: none;
+}
+
+.menu li:hover .chevron-hover {
+    display: inline-block;
+}
+
 .chevron-down img {
     width: 14px;
 }
