@@ -380,6 +380,10 @@ ul {
     width: 20px;
 }
 
+.place-name {
+    padding-left: 10px;
+}
+
 footer ul {
     list-style-type: none;
     line-height: 40px;
@@ -395,5 +399,13 @@ footer a {
 
 footer a:hover {
     color: black;
+}
+
+.sony-entertainment img {
+    width: 140px;
+}
+
+.copyright-text {
+    margin-top: 15px;
 }
 /* END FOOTER */
