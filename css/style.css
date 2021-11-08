@@ -365,6 +365,7 @@ a {
 /* FOOTER */
 footer {
     background-color: #00439c;
+    padding-bottom: 60px;
 }
 
 .footer-ps-logo,
