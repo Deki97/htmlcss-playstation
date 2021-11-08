@@ -348,6 +348,16 @@ a {
     font-size: 30px;
     margin: 50px 0;
 }
+
+.single-social-item {
+    margin-bottom: 40px;
+}
+
+@media (min-width: 576px) {
+    .single-social-item img {
+        width: 120px;
+    }
+}
 /* END SOCIAL MEDIA SECTION */
 /* END MAIN */
 
