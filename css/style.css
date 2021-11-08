@@ -343,6 +343,7 @@ a {
 /* SOCIAL MEDIA SECTION */
 .social-media {
     text-align: center;
+    margin: 50px 0;
 }
 .social-media-title {
     font-size: 30px;
@@ -362,4 +363,37 @@ a {
 /* END MAIN */
 
 /* FOOTER */
+footer {
+    background-color: #00439c;
+}
+
+.footer-ps-logo,
+.place,
+ul {
+    margin-top: 60px;
+}
+.footer-ps-logo img {
+    width: 100px;
+}
+
+.place img {
+    width: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    line-height: 40px;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer a {
+    color: inherit;
+}
+
+footer a:hover {
+    color: black;
+}
 /* END FOOTER */
