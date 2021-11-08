@@ -377,6 +377,8 @@ header {
 
 .single-social-item {
     margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 @media (min-width: 576px) {
