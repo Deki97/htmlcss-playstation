@@ -365,14 +365,17 @@ a {
 /* FOOTER */
 footer {
     background-color: #00439c;
-    padding-bottom: 60px;
+    padding: 60px 0;
 }
 
-.footer-ps-logo,
-.place,
-ul {
+.place {
     margin-top: 60px;
 }
+
+.footer-ps-logo {
+    margin-top: 20px;
+}
+
 .footer-ps-logo img {
     width: 100px;
 }
@@ -388,10 +391,7 @@ ul {
 footer ul {
     list-style-type: none;
     line-height: 40px;
-}
-
-footer ul li {
-    display: inline-block;
+    margin-top: 20px;
 }
 
 footer a {
