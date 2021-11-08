@@ -1,17 +1,8 @@
+/* COMMON */
 body {
     font-family: Arial, sans-serif;
 }
 
-header {
-    width: 100%;
-    font-family: Helvetica, arial, sans-serif;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1020;
-}
-
-/* COMMON */
 img {
     width: 100%;
 }
@@ -35,7 +26,17 @@ a {
 .radius {
     border-radius: 20px;
 }
+
+
 /* HEADER */
+header {
+    width: 100%;
+    font-family: Helvetica, arial, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1020;
+}
 
 /* HEADER TOP */
 .header-top {
@@ -116,13 +117,17 @@ a {
 /* END HEADER */
 
 
+
 /* MAIN */
 /* JUMBOTRON SECTION */
+
+/* JUMBOTRON RETURNAL */
 .jumbotron-wrapper.returnal {
     background-image: url('../img/jumbo-bg.png');
     margin-top: 100px;
 }
 
+/* JUMBOTRON IT TAKES 2 */
 .jumbotron-wrapper.takes {
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
 }
@@ -133,11 +138,13 @@ a {
     background-position: center;
 }
 
+/* JUMBOTRON CONTENT RETURNAL */
 .jumbotron-content.returnal {
     margin-top: 300px;
     margin-bottom: 50px;
 }
 
+/* JUMBOTRON CONTENT IT TAKES 2 */
 .jumbotron-content.takes {
     margin-top: 60px;
     margin-bottom: 50px;
@@ -165,7 +172,7 @@ a {
     font-size: 40px;
 }
 
-/* MEDIA QUERY RETURNAL-IT TAKES TWO LOGO RESPONSIVE */
+/* MEDIA QUERY RETURNAL - IT TAKES TWO LOGO RESPONSIVE */
 @media (min-width: 576px) {
     .returnal-logo img,
     .takes2-logo img {
@@ -184,7 +191,7 @@ a {
         width: 220px;
     }
 }
-/* END MEDIA QUERY RETURNAL-IT TAKES TWO LOGO RESPONSIVE */
+/* END MEDIA QUERY RETURNAL - IT TAKES TWO LOGO RESPONSIVE */
 
 /* JUMBOTRON CARD SECTION */
 .jumbotron-card-wrapper {
@@ -201,6 +208,7 @@ a {
 }
 /* END JUMBOTRON CARD SECTION */
 /* END JUMBOTRON SECTION */
+
 
 /* ECCO LA PLAYSTATION 5 SECTION */
 .section-subtitle {
