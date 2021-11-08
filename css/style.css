@@ -409,4 +409,8 @@ footer a:hover {
 .copyright-text {
     margin-top: 15px;
 }
+
+.more-info {
+    text-decoration: underline;
+}
 /* END FOOTER */
